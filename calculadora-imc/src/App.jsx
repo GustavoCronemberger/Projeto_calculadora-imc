@@ -1,15 +1,12 @@
-import { useState } from 'react'
-
-import './App.css'
+import React from 'react';
+import IMCForm from './components/IMCForm';
 
 function App() {
-  
-
-  return (
-    <>
-      
-    </>
-  )
+    return (
+        <div className="App">
+            <IMCForm />
+        </div>
+    );
 }
 
-export default App
+export default App;

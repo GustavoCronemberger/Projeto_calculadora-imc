@@ -1,0 +1,107 @@
+.imc-widget {
+    background: linear-gradient(145deg, #e2e8f0, #a1a7ac);
+    border-radius: 15px;
+    padding: 20px;
+    width: 22rem;
+    height: 22rem;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 1px 1px 2px #4c4e50, -1px -1px 2px #aeadaf;
+    border: 1px solid #979a9c;
+}
+
+.imc-widget h2 {
+    color: #4a5568;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    color: #4a5568;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #e0e3e7, -1px -1px 2px #3d4657;
+    font-size: 1em;
+}
+
+.btn-calculate {
+    background-color: transparent;
+    border: 1px solid #bdbdbd;
+    box-shadow: -1px -1px 2px #e0e3e7, 1px 1px 2px #3d4657;
+    color: #4a5568;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 700;
+    transition: color 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease-in-out;
+    box-sizing: border-box;
+}
+
+.btn-calculate:hover {
+    background-color: transparent;
+    border: 1px solid #8590a1;
+    box-shadow: 1px 1px 2px #d3d7dd, -1px -1px 2px #3d4657;
+    color: #5b6577;
+}
+
+.result {
+    margin-top: 20px;
+    color: #2d3748;
+}
+
+.result h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.result p {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.btn-about {
+    background-color: #374051;
+    border: 1px solid #bdbdbd;
+    box-shadow: 1px 1px 2px #374051, -1px -1px 2px #3e573d;
+    color: azure;
+    padding: 8px 30px; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    transition: color 0.1s ease, border-color 0.1s ease, box-shadow 0.1s ease-in-out;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-about:hover {
+    background-color: transparent;
+    border: 1px solid #8590a1;
+    box-shadow: 1px 1px -3px #d3d7dd, -1px -1px 3px #3e573d;
+    color: #3e573d;
+}
+
+
+.footer {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
